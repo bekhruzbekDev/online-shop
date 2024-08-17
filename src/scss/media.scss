@@ -1,0 +1,312 @@
+@media (max-width: 1090px) {
+  .header {
+    margin-bottom: 0;
+    .header-container {
+      .nav-logo {
+        display: none;
+      }
+      .tablet-logo {
+        display: block;
+      }
+      #box {
+        display: block;
+      }
+      menu {
+        width: 40px !important;
+        height: 40px;
+        p {
+          display: none;
+        }
+      }
+      .input {
+        width: 325px;
+      }
+      .user {
+        p {
+          display: none;
+        }
+        .chevron {
+          display: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 960px) {
+  .cards {
+    .cards-container {
+      .title {
+        h2 {
+          width: 128px;
+          font-size: 24px;
+        }
+        span {
+          margin-top: 10px;
+        }
+      }
+      .action {
+        grid-template-columns: repeat(auto-fit, 224px);
+        gap: 30px;
+        margin-bottom: 80px;
+        .cards {
+          .img {
+            // height: 10px;
+            img {
+              width: 224px;
+            }
+            div {
+              left: 184px;
+              bottom: 125px;
+            }
+            .discount {
+              bottom: 65px;
+              left: 10px;
+            }
+          }
+          .information {
+            h2 {
+              .span {
+                display: none;
+              }
+            }
+            .milk-text {
+              margin-bottom: 30px;
+            }
+
+            .button {
+              width: 208px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1210px) {
+  .articles {
+    .articles-container {
+      .card {
+        .articles-card {
+          width: 224px;
+          img {
+            width: 224px;
+            height: 156px;
+          }
+          .card-info {
+            .date {
+              font-size: 8px;
+              line-height: 12px;
+            }
+            h3 {
+              font-size: 16px;
+              line-height: 24px;
+            }
+            div {
+              p {
+                font-size: 12px;
+                line-height: 18px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1220px) {
+  .special-offers {
+    .special-offers_container {
+      h2 {
+        font-size: 24px;
+      }
+      .div {
+        .severyanochka-card {
+          background-position: 130px;
+          .info {
+            width: 174px;
+            top: 20px;
+            left: 20px;
+            h4 {
+              font-size: 18px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+        .Buy-products {
+          background-position: right 100px;
+          background-position: center;
+          background-repeat: no-repeat;
+          .textInfo {
+            width: 125px;
+            top: 20px;
+            left: 20px;
+            h4 {
+              font-size: 18px;
+              line-height: 27px;
+            }
+            p {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 760px) {
+  .articles {
+    .articles-container {
+      .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .articles-card {
+          width: 336px;
+          img {
+            width: 100%;
+            height: 156px;
+          }
+          .card-info {
+            .date {
+              font-size: 12px;
+              line-height: 18px;
+            }
+            h3 {
+              font-size: 16px;
+              font-weight: 700;
+              line-height: 27px;
+              color: #414141;
+              margin-bottom: 10px;
+            }
+            div {
+              p {
+                font-size: 12px;
+                color: #414141;
+                font-weight: 400;
+                line-height: 18px;
+                // border: 1px solid red;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 764px) {
+  .card-media {
+    display: block;
+  }
+}
+@media (max-width: 710px) {
+  .header {
+    .header-container {
+      .input {
+        max-width: 261px !important;
+      }
+    }
+  }
+  .home {
+    height: 80px;
+    margin-bottom: 40px;
+    .home-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .img-tablet {
+        display: none;
+      }
+      h2 {
+        font-size: 18px;
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 764px) {
+  .cards {
+    .cards-container {
+      .title {
+        margin-bottom: 16px;
+      }
+      .action {
+        grid-template-columns: repeat(auto-fit, 160px);
+        gap: 16px;
+        grid-template-rows: 343px;
+
+        .cards {
+          .img {
+            height: 130px;
+
+            img {
+              width: 160px;
+            }
+            div {
+              left: 124px;
+              bottom: 90px;
+              .icon {
+                width: 24px;
+                height: 24px;
+              }
+            }
+            .discount {
+              width: 46px;
+              height: 24px;
+              bottom: 35px;
+              left: 10px;
+
+              p {
+                font-size: 12px;
+              }
+            }
+          }
+          .information {
+            .price {
+              div {
+                h2 {
+                  font-size: 14px;
+                }
+                h3 {
+                  font-size: 14px;
+                }
+              }
+            }
+            h2 {
+              font-size: 12px;
+              line-height: 18px;
+              .span {
+                display: none;
+              }
+            }
+            .bg {
+              display: flex;
+            }
+            .milk-text {
+              margin-bottom: 40px;
+            }
+            .milk {
+              margin-bottom: 30px;
+            }
+            .text {
+              margin-bottom: 25px;
+            }
+            .card-text {
+              margin-bottom: 40px;
+            }
+
+            .button {
+              width: 144px;
+            }
+          }
+        }
+      }
+
+      .card-media {
+        display: block;
+      }
+    }
+  }
+}
